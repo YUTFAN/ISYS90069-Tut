@@ -52,3 +52,29 @@
     pain_scale: 10
     associated_symptoms: nausea
     patient_claim: renal colic
+
+- type: clinical
+  category: test
+  description: conduct a CT scan
+  timestamp: around 5 pm
+  metadata:
+    purpose: determine size and location of kidney stone
+    result: four-millimeter stone
+    outcome: result shared around 10 pm
+
+- type: process
+  category: healthcare_administration
+  description: request to stay overnight
+  timestamp: around 10 pm
+  metadata:
+    reason: concerns about transportation and childcare
+    approval: granted after discussion with consultant
+
+- type: process
+  category: healthcare_administration
+  description: discharge from hospital
+  timestamp: 5:30 am
+  metadata:
+    matters to be explained: options, medication, and follow-up
+    discharge Summary: heart murmur not noted
+
