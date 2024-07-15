@@ -58,48 +58,42 @@
   category: test
   description: Urine test
   timestamp: around 1:50 pm
-  metadata:
-    purpose: determine whether blood retains in the urine
-    result: negative 
-    outcome: pending
+  purpose: determine whether blood retains in the urine
+  result: negative
+  outcome: pending
 
 - type: clinical
   category: test
   description: chemistry blood test
-  timestamp: around 2 pm
-  metadata:
-    purpose: basic mandatory test
+  timestamp: around 2
+  purpose: basic mandatory test
 
 - type: clinical
   category: treatment
   description: inject a couple of doses of Fentanyl and three doses of morphine
   timestamp: around 2:10 pm
-  metadata:
-    purpose: relieve patient's severe back pain
-    outcome: back pain is eliminated till 7 pm
+  purpose: relieve patient's severe back pain
+  outcome: back pain is eliminated till 7 pm
     
 - type: clinical
   category: test
   description: conduct a CT scan
   timestamp: around 5 pm
-  metadata:
-    purpose: determine size and location of kidney stone
-    result: four-millimeter stone
-    outcome: result shared around 10 pm
+  purpose: determine size and location of kidney stone
+  result: four-millimeter stone
+  outcome: result shared around 10 pm
 
 - type: process
   category: healthcare_administration
   description: request to stay overnight
-  timestamp: around 10 pm
-  metadata:
-    reason: concerns about transportation and childcare
-    approval: granted after discussion with consultant
+  timestamp: around 10 p
+  reason: concerns about transportation and childcare
+  approval: granted after discussion with consultant
 
 - type: process
   category: healthcare_administration
   description: discharge from hospital
   timestamp: 5:30 am
-  metadata:
-    matters to be explained: options, medication, and follow-up
-    discharge Summary: heart murmur not noted
+  matters to be explained: options, medication, and follow-up
+  discharge Summary: heart murmur not noted
 
