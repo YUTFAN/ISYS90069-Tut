@@ -3,22 +3,23 @@
   description: experiencing intense back pain
   location: home
   timestamp: "morning"
+  cause: bending over assembling barbecue
+  associated_symptoms: nausea
+  self_diagnosis: renal colic
+  action_taken: went to ED
+  pain_scale: 10
   metadata:
-    cause: bending over assembling barbecue
-    pain_scale: 10
-    associated_symptoms: nausea
-    self_diagnosis: renal colic
-    action_taken: went to ED
+    pain_scale: from 1 to 10, 10 being the most severe
+    self_diagnosis: based on the patient's previous experience as a doctor
 
 
 - type: demographic
   category: personal_info
   description: patient demographics
-  metadata:
-    gender: male
-    ethnicity: white
-    occupation: doctor
-    experience: 15 years in medical field
+  gender: male
+  ethnicity: white
+  occupation: doctor
+  experience: 15 years in medical field
 
 
 - type: process
@@ -26,11 +27,10 @@
   description: COVID-19 screening
   location: ED entrance
   timestamp: "arrival" around 1:32 pm
-  metadata:
-    questions_asked:
-      - recent travel
-      - contact with COVID-19 positive individuals
-      - pending COVID-19 test results
+  questions_asked:
+    - recent travel
+    - contact with COVID-19 positive individuals
+    - pending COVID-19 test results
 
 
 - type: process
@@ -38,20 +38,21 @@
   description: registration and triage
   location: ED
   timestamp: "within 10 minutes of arrival" around 1:42 pm
-  metadata:
-    steps:
-      - registration nurse interview
-      - triage nurse assessment
+  steps:
+    - registration nurse interview
+    - triage nurse assessment
 
 - type: clinical
   category: symptom
   description: back pain
   location: back
   timestamp: "arrival"
+  associated_symptoms: nausea
+  patient_claim: renal colic
   metadata:
-    pain_scale: 10
-    associated_symptoms: nausea
-    patient_claim: renal colic
+    the pain_scale: from 1 to 10, 10 being the most severe
+    patient_claim: based on patient's previous experience as a doctor
+  
 
 - type: clinical
   category: test
