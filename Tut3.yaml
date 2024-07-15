@@ -1,0 +1,54 @@
+- type: event
+  category: patient_action
+  description: experiencing intense back pain
+  location: home
+  timestamp: "morning"
+  metadata:
+    cause: bending over assembling barbecue
+    pain_scale: 10
+    associated_symptoms: nausea
+    self_diagnosis: renal colic
+    action_taken: went to ED
+
+
+- type: demographic
+  category: personal_info
+  description: patient demographics
+  metadata:
+    gender: male
+    ethnicity: white
+    occupation: doctor
+    experience: 15 years in medical field
+
+
+- type: process
+  category: healthcare_administration
+  description: COVID-19 screening
+  location: ED entrance
+  timestamp: "arrival"
+  metadata:
+    questions_asked:
+      - recent travel
+      - contact with COVID-19 positive individuals
+      - pending COVID-19 test results
+
+
+- type: process
+  category: healthcare_administration
+  description: registration and triage
+  location: ED
+  timestamp: "within 10 minutes of arrival"
+  metadata:
+    steps:
+      - registration nurse interview
+      - triage nurse assessment
+
+- type: clinical
+  category: symptom
+  description: back pain
+  location: back
+  timestamp: "arrival"
+  metadata:
+    pain_scale: 10
+    associated_symptoms: nausea
+    patient_claim: renal colic
