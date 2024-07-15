@@ -26,7 +26,7 @@
   category: healthcare_administration
   description: COVID-19 screening
   location: ED entrance
-  timestamp: "arrival" around 1:32 pm
+  timestamp: around 1:32 pm
   questions_asked:
     - recent travel
     - contact with COVID-19 positive individuals
@@ -37,7 +37,7 @@
   category: healthcare_administration
   description: registration and triage
   location: ED
-  timestamp: "within 10 minutes of arrival" around 1:42 pm
+  timestamp:  around 1:42 pm
   steps:
     - registration nurse interview
     - triage nurse assessment
