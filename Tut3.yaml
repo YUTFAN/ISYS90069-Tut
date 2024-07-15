@@ -25,7 +25,7 @@
   category: healthcare_administration
   description: COVID-19 screening
   location: ED entrance
-  timestamp: "arrival"
+  timestamp: "arrival" around 1:32 pm
   metadata:
     questions_asked:
       - recent travel
@@ -37,7 +37,7 @@
   category: healthcare_administration
   description: registration and triage
   location: ED
-  timestamp: "within 10 minutes of arrival"
+  timestamp: "within 10 minutes of arrival" around 1:42 pm
   metadata:
     steps:
       - registration nurse interview
@@ -53,6 +53,30 @@
     associated_symptoms: nausea
     patient_claim: renal colic
 
+- type: clinical
+  category: test
+  description: Urine test
+  timestamp: around 1:50 pm
+  metadata:
+    purpose: determine whether blood retains in the urine
+    result: negative 
+    outcome: pending
+
+- type: clinical
+  category: test
+  description: chemistry blood test
+  timestamp: around 2 pm
+  metadata:
+    purpose: basic mandatory test
+
+- type: clinical
+  category: treatment
+  description: inject a couple of doses of Fentanyl and three doses of morphine
+  timestamp: around 2:10 pm
+  metadata:
+    purpose: relieve patient's severe back pain
+    outcome: back pain is eliminated till 7 pm
+    
 - type: clinical
   category: test
   description: conduct a CT scan
