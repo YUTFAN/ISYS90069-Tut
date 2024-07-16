@@ -1,0 +1,42 @@
+patient:
+  lastname: Chapman
+  firstname: David
+  dateofbirth: 1975-03-01
+  sex:
+    display: Male
+    code: C20197
+    system: https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=24.05d&ns=ncit&code=C20197&key=n1958385898&b=1&n=null
+  ethnicity:
+    display: Italian
+    code: 2114-7
+    system: https://terminology.hl7.org/2.0.0/CodeSystem-v3-Race.html#v3-Race-2028-9
+  organization: University of Melbourne
+  primary_diagnosis:
+    display: Chronic kidney disease
+    code: LA32626-6
+    system: http://purl.bioontology.org/ontology/LNC/LA32626-6
+    date: 2023-03-20
+  height: 174 cm
+  weight: 66 kg
+  creatine_value:
+    value: 
+    units: 
+    date: 
+  medications:
+    - compound:
+        display: 
+        code: 
+        system: 
+      dose:
+        value: 
+        units: 
+      frequency:
+        value: 
+        units:
+  eGFR: 
+  vitals:
+    BP:
+      systolic: 
+      diastolic: 
+    pulse: 
+  date:
