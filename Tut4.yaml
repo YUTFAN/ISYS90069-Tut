@@ -1,3 +1,49 @@
+
+
+patient:
+  lastname: #patient's last name
+  firstname: #patient's first name
+  dateofbirth: 
+  sex:
+    display: # Text representation of sex (e.g., Male or Female)
+    code: 
+    system: # URL of the coding system
+  ethnicity:
+    display: 
+    code: 
+    system: 
+  organization:
+  primary_diagnosis:
+    display: 
+    code: 
+    system: 
+    date: 
+  height: 
+  weight:
+  creatine_value:
+    value:
+    units:
+    date:
+  medications:
+    - compound:
+        display: 
+        code: 
+        system: 
+      dose:
+        value: 
+        units: 
+      frequency:
+        value: 
+        units: 
+  eGFR: 
+  vitals:
+    BP:
+      systolic: 
+      diastolic: 
+    pulse: 
+  date: 
+
+
 patient:
   lastname: Chapman
   firstname: David
