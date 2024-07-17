@@ -19,24 +19,24 @@ patient:
   height: 174 cm
   weight: 66 kg
   creatine_value:
-    value: 
-    units: 
-    date: 
+    value: 114
+    units: unom/L
+    date: 2023-03-01
   medications:
     - compound:
-        display: 
-        code: 
-        system: 
+        display: Lisinopril
+        code: C0065374
+        system: http://purl.bioontology.org/ontology/RXNORM/29046
       dose:
-        value: 
-        units: 
+        value: 20
+        units: mg
       frequency:
-        value: 
-        units:
-  eGFR: 
+        value: 1
+        units: daily
+  eGFR: 49 mL/min
   vitals:
     BP:
-      systolic: 
-      diastolic: 
-    pulse: 
-  date:
+      systolic: 135
+      diastolic: 92
+    pulse: 84
+  date: 2023-03-20

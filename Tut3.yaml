@@ -52,7 +52,6 @@
   metadata:
     the pain_scale: from 1 to 10, 10 being the most severe
     patient_claim: based on patient's previous experience as a doctor
-  
 
 - type: clinical
   category: test
