@@ -87,7 +87,16 @@ patient:
   date: 2023-03-20
 
 
-# The data generally meets the requirements of interoperationality. It contains all data related to basic personal information, such as first name, last name, sex and date of birth.
+# Our information model was designed with strict adherence to widely recognized biomedical standards, including HL7, LNC and so on, 
+# ensureing a high degree of data interoperability between different institutions. By using standardized coding systems and formats,
+# we can effectively exchange and integrate data from various sources, thereby enhancing data accuracy and usability. 
 # It also supports the reading of some of the most important data, such as medications, eGFR and vitals.
 # It also makes use of a variety of external databases for references, such as NIH and bioontology.
 # Generally speaking, the data structure will support a smooth interoperationality for functions that are commonly used in modern medical treatment.
+
+# However, there are still potential challenges in data interoperability. 
+# Differences between coding systems might lead to inconsistencies in data interpretation across different platforms.  
+# To further enhance interoperability, collaboration with other teams is essential to compare and integrate data models, identify discrepancies, and address limitations,
+# ensuring seamless data exchange and sharing across all participating institutions.
+
+
