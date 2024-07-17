@@ -1,5 +1,5 @@
 
-
+# description
 patient:
   lastname: #patient's last name
   firstname: #patient's first name
@@ -41,9 +41,9 @@ patient:
       systolic: 
       diastolic: 
     pulse: 
-  date: 
+  date:
 
-
+# example
 patient:
   lastname: Chapman
   firstname: David
@@ -86,3 +86,4 @@ patient:
       diastolic: 92
     pulse: 84
   date: 2023-03-20
+
