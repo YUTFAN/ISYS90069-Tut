@@ -19,7 +19,7 @@ patient:
     date: "date when diagnosis made"
   height: "measurement of patient's stature from base to head, measured in cm"
   weight: "measurement of patient's body mass, measured in kg"
-  creatine_value: "date when 
+  creatine_value: 
     value: "the concentration of creatinine in patient's blood (number only)"
     units: "measured in unom/L"
     date: "date when blood sample is collected"
