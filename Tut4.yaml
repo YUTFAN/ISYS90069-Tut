@@ -86,3 +86,8 @@ patient:
     pulse: 84
   date: 2023-03-20
 
+
+# The data generally meets the requirements of interoperationality. It contains all data related to basic personal information, such as first name, last name, sex and date of birth.
+# It also supports the reading of some of the most important data, such as medications, eGFR and vitals.
+# It also makes use of a variety of external databases for references, such as NIH and bioontology.
+# Generally speaking, the data structure will support a smooth interoperationality for functions that are commonly used in modern medical treatment.
