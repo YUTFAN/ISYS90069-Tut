@@ -1,49 +1,48 @@
-
-# description
+# this is our information model
 patient:
-  lastname: #patient's last name
-  firstname: #patient's first name
-  dateofbirth: 
-  sex:
-    display: # Text representation of sex (e.g., Male or Female)
-    code: 
-    system: # URL of the coding system
+  lastname: "the last name of patient"
+  firstname: "the first name of patient"
+  dateofbirth: "the specific date on which the patient born (YYYY-MM-DD)"
+  sex: 
+    display: "text representation of sex (e.g., male or female)"
+    code: "the unique identifier for sex"
+    system: "url where this code is defined"
   ethnicity:
-    display: 
-    code: 
-    system: 
-  organization:
+    display: "text representation of ethnic group (e.g., American, Australia)"
+    code: "the unique identifier for ethnicity"
+    system: "url where this code is defined"
+  organization: "the working place where the patient attaches to"
   primary_diagnosis:
-    display: 
-    code: 
-    system: 
-    date: 
-  height: 
-  weight:
-  creatine_value:
-    value:
-    units:
-    date:
+    display: "the proper noun of diagnosed disease of patient"
+    code: "the unique identifier for diagnosed disease"
+    system: "url where this code is defined"
+    date: "date when diagnosis made"
+  height: "measurement of patient's stature from base to head, measured in cm"
+  weight: "measurement of patient's body mass, measured in kg"
+  creatine_value: "date when 
+    value: "the concentration of creatinine in patient's blood (number only)"
+    units: "measured in unom/L"
+    date: "date when blood sample is collected"
   medications:
     - compound:
-        display: 
-        code: 
-        system: 
+        display: "name of prescribed drug that the patient should take"
+        code: "the unique identifier for this.medicine"
+        system: "url where this code is defined"
       dose:
-        value: 
-        units: 
-      frequency:
-        value: 
-        units: 
-  eGFR: 
+        value: "specific amount of medication to be administrated to patient at one time"
+        units: "measured in mg"
+      frequency: 
+        value: "how many times the patient should taken in a quantified period"
+        units: "quantified period (e.g., twice a day, daily)"
+  eGFR: "the number in determining stage of kidney disease, measured in mL/min"
   vitals:
-    BP:
-      systolic: 
-      diastolic: 
-    pulse: 
-  date:
+    BP: 
+      systolic: "the highest measurements of blood pressure"
+      diastolic: "the lowest measurements of blood pressure"
+    pulse: "the regular movement of blood through body with touching certain parts of body"
+  date: "date when vitals made"
 
-# example
+# case 2
 patient:
   lastname: Chapman
   firstname: David
